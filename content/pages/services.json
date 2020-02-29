@@ -1,0 +1,17 @@
+{
+  "title": "Nos services",
+  "path": "/services",
+  "blocks": [
+    {
+      "_template": "TitleBlock",
+      "title": "",
+      "underline": true,
+      "content": ""
+    },
+    {
+      "content": "Venez découvrir nos services",
+      "_template": "ContentBlock"
+    }
+  ],
+  "displayTitle": true
+}

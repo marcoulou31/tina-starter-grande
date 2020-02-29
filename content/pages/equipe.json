@@ -1,0 +1,17 @@
+{
+  "title": "Équipe",
+  "path": "/equipe",
+  "blocks": [
+    {
+      "_template": "TitleBlock",
+      "title": "",
+      "underline": true,
+      "content": ""
+    },
+    {
+      "content": "Venez découvrir notre équipe dynamique",
+      "_template": "ContentBlock"
+    }
+  ],
+  "displayTitle": true
+}
