@@ -11,7 +11,6 @@ import { useLocalJsonForm } from "gatsby-tinacms-json"
 
 export default function Page({ data }) {
   const [page] = useLocalJsonForm(data.page, PageForm)
-  console.log('data', data)
   const blocks = page.blocks ? page.blocks : []
 
   return (
