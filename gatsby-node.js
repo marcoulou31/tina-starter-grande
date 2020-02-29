@@ -12,7 +12,7 @@ exports.setFieldsOnGraphQLNodeType = ({ type }) => {
           `published` is always true in development
               so both drafts and finished posts are built
           */
-          if (process.env.NODE_ENV !== "productionOff") {
+          if (process.env.NODE_ENV !== "production") {
             return true
           }
           /*
